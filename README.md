@@ -19,7 +19,7 @@ Here are some ideas to get you started:
   <img height="250" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHUxeDQ4MDdnbmdudmQ5bTdlZG9pdHgzOG83YWRwbXVjeng2aXdqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iNPNqI81MvDQ4D4n6D/giphy.gif"  />
 </div>
 
-### Skills
+### Tech Skills
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html,css,php,js,laravel,codeigniter)
 
