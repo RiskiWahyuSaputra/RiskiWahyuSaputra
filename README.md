@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 ### Tech Skills
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html,css,php,js,laravel,codeigniter)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html,css,php,js,laravel,codeigniter,mysql,github)
 
 ### Connect with me
 
