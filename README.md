@@ -70,8 +70,8 @@ const riski = {
 ## 🎵 Now Playing
 
 <div align="center">
-  <a href="https://open.spotify.com/user/GANTI_USERNAME_SPOTIFY">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=GANTI_USERNAME_SPOTIFY&count=3&unique=true" alt="recently played on spotify" />
+  <a href="https://open.spotify.com/user/31ashwdrxyilecvdrfqzsq7mr7sm">
+    <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31ashwdrxyilecvdrfqzsq7mr7sm&count=5&width=500" alt="Spotify recently played" />
   </a>
 </div>
 
