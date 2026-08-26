@@ -64,7 +64,15 @@ const riski = {
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=RiskiWahyuSaputra&hide_border=true&theme=tokyonight" alt="streak stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=RiskiWahyuSaputra&hide_border=true&theme=tokyonight" alt="streak stats" />
+</div>
+
+## 🎵 Now Playing
+
+<div align="center">
+  <a href="https://open.spotify.com/user/GANTI_USERNAME_SPOTIFY">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=GANTI_USERNAME_SPOTIFY&count=3&unique=true" alt="recently played on spotify" />
+  </a>
 </div>
 
 ## 🌐 Connect with me
