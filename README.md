@@ -26,13 +26,6 @@ const riski = {
   motto:    "Ship it, then make it better ⚡",
 };
 ```
-
-- 🔭 Building web apps with **Laravel** and **Next.js**
-- 🌱 Currently deep-diving **TypeScript** and modern React patterns
-- 👯 Open to collaborate on **open source** and freelance web projects
-- 💬 Ask me about **PHP, Laravel, React, or Linux**
-- 📫 Reach me on [Instagram](https://www.instagram.com/arskies_/) or [LinkedIn](https://www.linkedin.com/in/riski-wahyu-saputra-6a9078294/)
-
 ## 🛠️ Tech Skills
 
 **Frontend**
