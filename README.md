@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/RiskiWahyuSaputra">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0077B5&center=true&vCenter=true&width=520&lines=Fullstack+Web+Developer;Laravel+%7C+Next.js+%7C+TypeScript;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0077B5&center=true&vCenter=true&width=520&lines=IT+Developer;Laravel+%7C+Next.js+%7C+TypeScript;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -18,7 +18,7 @@
 
 ```js
 const riski = {
-  role:     "Fullstack Web Developer",
+  role:     "IT Developer",
   code:     ["JavaScript", "TypeScript", "PHP", "SQL"],
   stack:    ["Next.js", "React", "Laravel", "CodeIgniter", "Tailwind"],
   tools:    ["Git", "GitHub", "MySQL", "Ubuntu"],
@@ -50,16 +50,21 @@ const riski = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RiskiWahyuSaputra&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiskiWahyuSaputra&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RiskiWahyuSaputra&theme=tokyonight" alt="profile details" />
+</div>
+
+<div align="center">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiskiWahyuSaputra&theme=tokyonight" alt="repos per language" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RiskiWahyuSaputra&theme=tokyonight" alt="most commit language" />
+</div>
+
+<div align="center">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RiskiWahyuSaputra&theme=tokyonight" alt="stats" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RiskiWahyuSaputra&theme=tokyonight&utcOffset=7" alt="productive time" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=RiskiWahyuSaputra&hide_border=true&theme=tokyonight" alt="streak stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RiskiWahyuSaputra&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
 </div>
 
 ## 🌐 Connect with me
