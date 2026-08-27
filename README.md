@@ -28,6 +28,8 @@ const riski = {
 ```
 ## 🛠️ Tech Skills
 
+<div align="center">
+
 **Frontend**
 
 ![Frontend](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,ts,react,nextjs,tailwind)
@@ -39,6 +41,8 @@ const riski = {
 **Tools & Environment**
 
 ![Tools](https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,ubuntu)
+
+</div>
 
 ## 📊 GitHub Stats
 
