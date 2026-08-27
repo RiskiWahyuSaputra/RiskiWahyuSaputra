@@ -14,6 +14,14 @@
   <img src="https://komarev.com/ghpvc/?username=RiskiWahyuSaputra&label=Profile%20Views&color=0077B5&style=flat" alt="profile views" />
 </div>
 
+<div align="center">
+
+![Profile Views](https://img.shields.io/badge/👀_Profile_Views-0077B5?style=flat)
+![Open for Work](https://img.shields.io/badge/🟢_Open_for_Work-00C853?style=flat)
+![Currently Learning](https://img.shields.io/badge/📚_Currently_Learning-Next.js_+_TypeScript-FF6F00?style=flat)
+
+</div>
+
 ## 👨‍💻 About Me
 
 ```js
@@ -87,6 +95,12 @@ const riski = {
   <img src="https://github-readme-streak-stats.herokuapp.com?user=RiskiWahyuSaputra&hide_border=true&theme=tokyonight" alt="streak stats" />
 </div>
 
+## 📈 Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiskiWahyuSaputra&bg_color=0d1117&color=0077B5&line=0077B5&point=ffffff&area_color=0077B5&area=true&hide_border=true" alt="Activity Graph" />
+</div>
+
 ## 🎵 Now Playing
 
 <div align="center">
@@ -113,6 +127,16 @@ const riski = {
 
 </div>
 
+## 🔥 Featured Repos
+
+<div align="center">
+
+<a href="https://github.com/RiskiWahyuSaputra/RiskiWahyuSaputra">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=RiskiWahyuSaputra&repo=RiskiWahyuSaputra&theme=tokyonight" />
+</a>
+
+</div>
+
 ## 🎮 Contribution Graph
 
 <picture>
@@ -120,6 +144,16 @@ const riski = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg">
 </picture>
+
+## 🐍 Snake Animation
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/github-snake.svg">
+    <img alt="snake animation" src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/github-snake.svg">
+  </picture>
+</div>
 
 <div align="center">
   <br>
