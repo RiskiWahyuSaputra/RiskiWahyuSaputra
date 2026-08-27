@@ -95,12 +95,6 @@ const riski = {
   <img src="https://github-readme-streak-stats.herokuapp.com?user=RiskiWahyuSaputra&hide_border=true&theme=tokyonight" alt="streak stats" />
 </div>
 
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiskiWahyuSaputra&bg_color=0d1117&color=0077B5&line=0077B5&point=ffffff&area=true&hide_border=true&custom_title=GitHub%20Activity%20Graph" alt="Activity Graph" />
-</div>
-
 ## 🎵 Now Playing
 
 <div align="center">
@@ -127,14 +121,6 @@ const riski = {
 
 </div>
 
-## 🔥 Featured Repos
-
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RiskiWahyuSaputra&repo=RiskiWahyuSaputra&theme=tokyonight)](https://github.com/RiskiWahyuSaputra/RiskiWahyuSaputra)
-
-</div>
-
 ## 🎮 Contribution Graph
 
 <picture>
@@ -142,16 +128,6 @@ const riski = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg">
 </picture>
-
-## 🐍 Snake Animation
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/github-snake.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/github-snake.svg">
-  </picture>
-</div>
 
 <div align="center">
   <br>
