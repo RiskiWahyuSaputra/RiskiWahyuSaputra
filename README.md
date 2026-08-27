@@ -125,3 +125,7 @@ const riski = {
   <br>
   <i>⭐ From <a href="https://github.com/RiskiWahyuSaputra">RiskiWahyuSaputra</a></i>
 </div>
+
+<div align="center">
+  <img src="img/king-king-baldwin.gif" alt="King Baldwin" />
+</div>
