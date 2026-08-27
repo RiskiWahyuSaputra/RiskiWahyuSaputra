@@ -8,3 +8,4 @@
 - Prefers centered alignment for icon/image sections in GitHub README (e.g., tech skills icons). Confidence: 0.85
 - Prefers tokyonight theme consistently across all GitHub profile widgets (stats, trophy, quotes, etc.). Confidence: 0.85
 - Prefers logically related README sections grouped together (e.g., Tech Stack badges placed directly below Tech Skills icons). Confidence: 0.8
+- Prefers maximalist GitHub profiles — wants as many visual widgets and features as possible (stats, graphs, animations, badges, featured repos). Confidence: 0.85

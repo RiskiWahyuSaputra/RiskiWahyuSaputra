@@ -98,7 +98,7 @@ const riski = {
 ## 📈 Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiskiWahyuSaputra&bg_color=0d1117&color=0077B5&line=0077B5&point=ffffff&area_color=0077B5&area=true&hide_border=true" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RiskiWahyuSaputra&bg_color=0d1117&color=0077B5&line=0077B5&point=ffffff&area=true&hide_border=true&custom_title=GitHub%20Activity%20Graph" alt="Activity Graph" />
 </div>
 
 ## 🎵 Now Playing
@@ -131,9 +131,7 @@ const riski = {
 
 <div align="center">
 
-<a href="https://github.com/RiskiWahyuSaputra/RiskiWahyuSaputra">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=RiskiWahyuSaputra&repo=RiskiWahyuSaputra&theme=tokyonight" />
-</a>
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RiskiWahyuSaputra&repo=RiskiWahyuSaputra&theme=tokyonight)](https://github.com/RiskiWahyuSaputra/RiskiWahyuSaputra)
 
 </div>
 
