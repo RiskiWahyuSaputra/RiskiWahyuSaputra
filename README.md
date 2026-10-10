@@ -29,7 +29,7 @@ const riski = {
   role:     "IT Developer",
   code:     ["JavaScript", "TypeScript", "PHP", "SQL"],
   stack:    ["Next.js", "React", "Laravel", "CodeIgniter", "Tailwind"],
-  tools:    ["Git", "GitHub", "MySQL", "Ubuntu"],
+  tools:    ["Git", "GitHub", "MySQL", "Linux", "Ubuntu"],
   learning: "Next.js + TypeScript at scale",
   motto:    "Ship it, then make it better ⚡",
 };
@@ -48,7 +48,7 @@ const riski = {
 
 **Tools & Environment**
 
-![Tools](https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,ubuntu)
+![Tools](https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,linux,ubuntu)
 
 </div>
 
@@ -65,6 +65,7 @@ const riski = {
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 </div>
