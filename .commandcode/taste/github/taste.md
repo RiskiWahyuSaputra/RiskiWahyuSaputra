@@ -9,3 +9,4 @@
 - Prefers tokyonight theme consistently across all GitHub profile widgets (stats, trophy, quotes, etc.). Confidence: 0.85
 - Prefers logically related README sections grouped together (e.g., Tech Stack badges placed directly below Tech Skills icons). Confidence: 0.8
 - Prefers maximalist GitHub profiles — wants as many visual widgets and features as possible (stats, graphs, animations, badges, featured repos). Confidence: 0.85
+- Pragmatic about broken widgets — prefers removing non-functional elements immediately rather than troubleshooting them. Values a clean, working profile over a feature-rich but broken one. Confidence: 0.8
