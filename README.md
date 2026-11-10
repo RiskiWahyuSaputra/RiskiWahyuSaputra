@@ -39,7 +39,17 @@ const riski = {
   motto:    "Ship it, then make it better ⚡",
 };
 ```
-## 🛠️ Tech Skills
+## ⚡ Tech Stack
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-light.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-dark.svg" width="100%" alt="Riski Wahyu Saputra's tech stack map" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-light.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-dark.svg" width="100%" alt="Languages in the tech stack" />
+</picture>
 
 <div align="center">
 
@@ -56,20 +66,6 @@ const riski = {
 ![Tools](https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,linux,ubuntu)
 
 </div>
-
-## ⚡ Tech Stack
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-light.svg" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-dark.svg" width="100%" alt="Riski Wahyu Saputra's tech stack map" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-light.svg" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-dark.svg" width="100%" alt="Languages in the tech stack" />
-</picture>
-
-<a href="https://github.com/riskiwahyusaputra">GitHub</a>
 
 ## 💡 Random Dev Quote
 
