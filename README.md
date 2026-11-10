@@ -39,8 +39,6 @@ const riski = {
   motto:    "Ship it, then make it better ⚡",
 };
 ```
-## ⚡ Tech Stack
-
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-light.svg" />
   <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-dark.svg" width="100%" alt="Riski Wahyu Saputra's tech stack map" />
