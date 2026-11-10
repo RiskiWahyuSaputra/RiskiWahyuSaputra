@@ -1,4 +1,9 @@
-![github header](img/github-header-banner.png)
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-light.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-dark.svg" width="860" alt="Riski Wahyu Saputra animated maintainer system scan" />
+</picture>
+</p>
 
 <div align="center">
   <a href="https://github.com/RiskiWahyuSaputra">

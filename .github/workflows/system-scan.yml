@@ -1,0 +1,37 @@
+name: Generate system scan
+
+on:
+  schedule: # setiap 12 jam
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: download & patch system-scan svg
+        run: |
+          mkdir -p dist
+          BASE="https://www.gitskins.com/api/section/system-scan?username=riskiwahyusaputra&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F177230545%3Fu%3Dc27677ffa57735c1ee77d9f5932cefa0232e4834%26v%3D4&style=terminal&v=oss-system-scan-1"
+          curl -fsSL "$BASE&mode=dark" -o dist/system-scan-dark.svg
+          curl -fsSL "$BASE&mode=light" -o dist/system-scan-light.svg
+          python3 .github/scripts/patch_scan.py dist/system-scan-dark.svg dist/system-scan-light.svg
+
+      - name: push svg to the system-scan branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: system-scan
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
