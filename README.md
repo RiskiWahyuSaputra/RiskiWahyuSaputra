@@ -119,11 +119,9 @@ const riski = {
 
 ## 🎮 Contribution Graph
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg">
-</picture>
+<p align="center">
+<img src="https://www.gitskins.com/api/section/heatmap?username=riskiwahyusaputra&theme=github-dark&variant=space-shooter&v=showcase-space-shooter-3" alt="Riski Wahyu Saputra contribution Space Shooter" />
+</p>
 
 <div align="center">
   <br>
