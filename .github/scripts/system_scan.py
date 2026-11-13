@@ -1,7 +1,7 @@
 """Buat SVG kartu "system scan" bergaya terminal (pengganti gitskins).
 
 Pemakaian: python3 system_scan.py <folder-output>
-Menghasilkan system-scan-{dark,light}.svg.
+Menghasilkan profile-scan-{dark,light}.svg.
 """
 import io
 import json
@@ -171,7 +171,7 @@ def main():
     avatar, rows = stats()
     art = ascii_art(avatar)
     for mode in THEMES:
-        with open(os.path.join(out, f"system-scan-{mode}.svg"), "w", encoding="utf-8") as f:
+        with open(os.path.join(out, f"profile-scan-{mode}.svg"), "w", encoding="utf-8") as f:
             f.write(render(mode, art, rows))
 
 

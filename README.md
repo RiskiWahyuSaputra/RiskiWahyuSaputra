@@ -1,7 +1,7 @@
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-light.svg?v=2" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-dark.svg?v=2" width="860" alt="Riski Wahyu Saputra system scan" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/profile-scan-light.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/profile-scan-dark.svg" width="860" alt="Riski Wahyu Saputra system scan" />
 </picture>
 </p>
 
@@ -124,8 +124,8 @@ const riski = {
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg?v=2" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph-dark.svg?v=2" width="100%" alt="Riski Wahyu Saputra pac-man contribution graph" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph-dark.svg" width="100%" alt="Riski Wahyu Saputra pac-man contribution graph" />
 </picture>
 </p>
 
