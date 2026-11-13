@@ -49,19 +49,23 @@ const riski = {
 </picture>
 
 <div align="center">
-
-**Frontend**
-
-![Frontend](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,ts,react,nextjs,tailwind)
-
-**Backend & Database**
-
-![Backend](https://go-skill-icons.vercel.app/api/icons?i=php,laravel,codeigniter,mysql)
-
-**Tools & Environment**
-
-![Tools](https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,linux,ubuntu)
-
+<table>
+  <tr>
+    <th align="center">🎨 Frontend</th>
+    <th align="center">⚙️ Backend &amp; Database</th>
+    <th align="center">🛠️ Tools &amp; Environment</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,js,ts,react,nextjs,tailwind&perline=4" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind" /></td>
+    <td align="center"><img src="https://go-skill-icons.vercel.app/api/icons?i=php,laravel,codeigniter,mysql&perline=2" alt="PHP, Laravel, CodeIgniter, MySQL" /></td>
+    <td align="center"><img src="https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,linux,ubuntu&perline=3" alt="Git, GitHub, VS Code, Linux, Ubuntu" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>HTML · CSS · JavaScript · TypeScript<br>React · Next.js · Tailwind</sub></td>
+    <td align="center"><sub>PHP · Laravel<br>CodeIgniter · MySQL</sub></td>
+    <td align="center"><sub>Git · GitHub · VS Code<br>Linux · Ubuntu</sub></td>
+  </tr>
+</table>
 </div>
 
 ## 💡 Random Dev Quote
@@ -94,7 +98,7 @@ const riski = {
 
 <div align="center">
   <a href="https://open.spotify.com/user/31ashwdrxyilecvdrfqzsq7mr7sm">
-    <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31ashwdrxyilecvdrfqzsq7mr7sm&count=5&width=500" alt="Spotify recently played" />
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ashwdrxyilecvdrfqzsq7mr7sm&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" alt="Spotify now playing" />
   </a>
 </div>
 
