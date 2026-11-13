@@ -1,13 +1,13 @@
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-light.svg" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-dark.svg" width="860" alt="Riski Wahyu Saputra animated maintainer system scan" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/system-scan-dark.svg" width="860" alt="Riski Wahyu Saputra system scan" />
 </picture>
 </p>
 
 <div align="center">
   <a href="https://github.com/RiskiWahyuSaputra">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0077B5&center=true&vCenter=true&width=520&lines=IT+Developer;Laravel+%7C+Next.js+%7C+TypeScript;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0077B5&center=true&vCenter=true&width=620&lines=IT+Developer;Laravel+%7C+Next.js+%7C+TypeScript;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -21,7 +21,6 @@
 
 <div align="center">
 
-![Profile Views](https://img.shields.io/badge/👀_Profile_Views-0077B5?style=flat)
 ![Open for Work](https://img.shields.io/badge/🟢_Open_for_Work-00C853?style=flat)
 ![Currently Learning](https://img.shields.io/badge/📚_Currently_Learning-Next.js_+_TypeScript-FF6F00?style=flat)
 
@@ -120,7 +119,10 @@ const riski = {
 ## 🎮 Contribution Graph
 
 <p align="center">
-<img src="https://www.gitskins.com/api/section/heatmap?username=riskiwahyusaputra&theme=github-dark&variant=space-shooter&v=showcase-space-shooter-3" alt="Riski Wahyu Saputra contribution Space Shooter" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/output/pacman-contribution-graph-dark.svg" width="100%" alt="Riski Wahyu Saputra pac-man contribution graph" />
+</picture>
 </p>
 
 <div align="center">
