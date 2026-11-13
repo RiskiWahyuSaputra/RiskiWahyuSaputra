@@ -56,9 +56,9 @@ const riski = {
     <th align="center">🛠️ Tools &amp; Environment</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,js,ts,react,nextjs,tailwind&perline=4" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind" /></td>
-    <td align="center"><img src="https://go-skill-icons.vercel.app/api/icons?i=php,laravel,codeigniter,mysql&perline=2" alt="PHP, Laravel, CodeIgniter, MySQL" /></td>
-    <td align="center"><img src="https://go-skill-icons.vercel.app/api/icons?i=git,github,vscode,linux,ubuntu&perline=3" alt="Git, GitHub, VS Code, Linux, Ubuntu" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&perline=4" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=php,laravel,codeigniter,mysql&perline=2" alt="PHP, Laravel, CodeIgniter, MySQL" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,linux,ubuntu&perline=3" alt="Git, GitHub, VS Code, Linux, Ubuntu" /></td>
   </tr>
   <tr>
     <td align="center"><sub>HTML · CSS · JavaScript · TypeScript<br>React · Next.js · Tailwind</sub></td>
