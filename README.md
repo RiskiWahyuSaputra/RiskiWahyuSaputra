@@ -98,7 +98,7 @@ const riski = {
 
 <div align="center">
   <a href="https://open.spotify.com/user/31ashwdrxyilecvdrfqzsq7mr7sm">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ashwdrxyilecvdrfqzsq7mr7sm&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" alt="Spotify now playing" />
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ashwdrxyilecvdrfqzsq7mr7sm&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" />
   </a>
 </div>
 
