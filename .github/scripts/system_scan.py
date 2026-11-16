@@ -6,7 +6,6 @@ Menghasilkan profile-scan-{dark,light}.svg.
 import io
 import json
 import os
-import random
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -23,6 +22,8 @@ MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 W, H = 860, 400
 RAMP = " .:-=+*cs#%@"  # dari terang ke gelap
 ASCII_COLS, ASCII_ROWS = 46, 30
+ROW_DELAY = 0.08  # jeda antar baris saat ASCII art perlahan muncul dari atas
+REVEAL_END = 0.2 + (ASCII_ROWS - 1) * ROW_DELAY + 0.8  # detik saat baris terakhir selesai muncul
 
 THEMES = {
     "dark": dict(bg="#0d1117", panel="#010409", border="#1f6feb55", line="#30363d",
@@ -115,17 +116,14 @@ def render(mode, art, rows):
          f'role="img" aria-label="{escape(USER)} system scan" font-family="{MONO}">',
          '<style>.c{animation:b 1.1s steps(1) infinite}@keyframes b{50%{opacity:0}}'
          '.r{animation:f .4s ease-out backwards}@keyframes f{from{opacity:0}}'
-         '.s{animation:sc 4s linear 2.2s infinite backwards}@keyframes sc{from{transform:translateY(0)}'
-         'to{transform:translateY(330px)}}'
-         # animasi scan sekali jalan saat kartu dimuat: baris acak -> baris asli, disapu garis sorot
-         # .g tanpa fill: tersembunyi sebelum dan sesudah animasinya sendiri
-         '.g{opacity:0;animation:gl .36s steps(3)}@keyframes gl{from{opacity:.9}to{opacity:.4}}'
+         f'.s{{animation:sc 4s linear {REVEAL_END + .2:.1f}s infinite backwards}}'
+         '@keyframes sc{from{transform:translateY(0)}to{transform:translateY(330px)}}'
+         # saat kartu dimuat, baris ASCII perlahan muncul dari atas ke bawah
          '.a{animation:ap .3s ease-out backwards}@keyframes ap{from{opacity:0}}'
-         '.sw{opacity:0;animation:sw 1.75s linear .1s}'
-         '@keyframes sw{from{opacity:1;transform:translateY(0)}88%{opacity:1}to{opacity:0;transform:translateY(300px)}}'
-         '.st1{opacity:0;animation:st1 2.1s steps(1)}@keyframes st1{0%,20%,40%,60%,80%{opacity:1}'
-         '10%,30%,50%,70%,90%{opacity:.35}}'
-         '@media (prefers-reduced-motion:reduce){.c,.s,.r,.a,.st2{animation:none}.g,.sw,.st1{display:none}}</style>',
+         '.ln{animation:ln .8s ease-out backwards}@keyframes ln{from{opacity:0;transform:translateY(-6px)}}'
+         f'.st1{{opacity:0;animation:st1 {REVEAL_END:.1f}s ease-in-out}}'
+         '@keyframes st1{0%,100%{opacity:1}50%{opacity:.4}}'
+         '@media (prefers-reduced-motion:reduce){.c,.s,.r,.a,.ln,.st2{animation:none}.st1{display:none}}</style>',
          f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="12" fill="{t["bg"]}" stroke="{t["border"]}"/>']
     # bar judul
     for i, c in enumerate(("#ff5f57", "#febc2e", "#28c840")):
@@ -145,28 +143,17 @@ def render(mode, art, rows):
     o.append(f'<text x="{lx+lw-12}" y="{ly+18}" text-anchor="end" font-size="9" font-weight="700" '
              f'letter-spacing="1.2" fill="{t["muted"]}" class="st1">SCANNING…</text>')
     o.append(f'<text x="{lx+lw-12}" y="{ly+18}" text-anchor="end" font-size="9" font-weight="700" '
-             f'letter-spacing="1.2" fill="{t["live"]}" class="a st2" style="animation-delay:2.1s">'
+             f'letter-spacing="1.2" fill="{t["live"]}" class="a st2" style="animation-delay:{REVEAL_END:.1f}s">'
              f'● MATCH 100%</text>')
     o.append(f'<clipPath id="cl"><rect x="{lx}" y="{ly}" width="{lw}" height="{lh}" rx="8"/></clipPath>')
-    o.append(f'<linearGradient id="swg" x1="0" y1="0" x2="0" y2="1">'
-             f'<stop offset="0" stop-color="{t["accent"]}" stop-opacity="0"/>'
-             f'<stop offset=".85" stop-color="{t["accent"]}" stop-opacity=".28"/>'
-             f'<stop offset="1" stop-color="{t["accent"]}" stop-opacity=".9"/></linearGradient>')
     o.append(f'<g font-size="9.6" fill="{t["art"]}" xml:space="preserve">')
-    rng = random.Random(7)
-    glyphs = RAMP[2:] + "01<>/{}"
     for i, line in enumerate(art):
         y = ly + 40 + i * 9.6
-        d = 0.2 + i * 0.055  # baris ke-i tersapu garis sorot pada detik ini
-        noise = "".join(" " if ch == " " else rng.choice(glyphs) for ch in line)
-        o.append(f'<text x="{lx+24}" y="{y:.1f}" textLength="282" lengthAdjust="spacing" class="g" '
-                 f'fill="{t["accent"]}" style="animation-delay:{d:.2f}s">{escape(noise)}</text>')
-        o.append(f'<text x="{lx+24}" y="{y:.1f}" textLength="282" lengthAdjust="spacing" class="a" '
-                 f'style="animation-delay:{d + 0.3:.2f}s">{escape(line)}</text>')
+        o.append(f'<text x="{lx+24}" y="{y:.1f}" textLength="282" lengthAdjust="spacing" class="ln" '
+                 f'style="animation-delay:{0.2 + i * ROW_DELAY:.2f}s">{escape(line)}</text>')
     o.append('</g>')
     o.append(f'<g clip-path="url(#cl)"><rect class="s" x="{lx}" y="{ly}" width="{lw}" height="2" '
-             f'fill="{t["accent"]}" opacity=".5"/>'
-             f'<rect class="sw" x="{lx}" y="{ly + 6}" width="{lw}" height="34" fill="url(#swg)"/></g>')
+             f'fill="{t["accent"]}" opacity=".5"/></g>')
 
     # panel kanan: info
     rx, rw = 360, W - 376
