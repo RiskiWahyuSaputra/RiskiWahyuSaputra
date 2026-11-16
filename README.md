@@ -92,7 +92,7 @@
 
 <a href="https://riskiwahyusaputra.vercel.app/"><picture>
   <source media="(prefers-color-scheme: light)" srcset="img/connect/portfolio-light.svg" />
-  <img src="img/connect/portfolio-dark.svg" width="100%" alt="Visit Riski Wahyu Saputra's portfolio at portofolio-sigma-three-87.vercel.app" />
+  <img src="img/connect/portfolio-dark.svg" width="100%" alt="Visit Riski Wahyu Saputra's portfolio at riskiwahyusaputra.vercel.app" />
 </picture></a>
 
 ## 🎮 Contribution Graph

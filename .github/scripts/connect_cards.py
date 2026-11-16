@@ -67,7 +67,7 @@ def card(link, mode):
 
 
 PORTFOLIO = dict(
-    url="portofolio-sigma-three-87.vercel.app",
+    url="riskiwahyusaputra.vercel.app",
     headline="Selected work & projects",
     lines=["A closer look at what I design,", "build and ship for the web."],
     shot="portfolio-shot.jpg",  # tangkapan layar situs, disimpan di folder output
