@@ -39,6 +39,13 @@
   <img src="img/about/toolbox-dark.svg" width="100%" alt="Toolbox. Frontend: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind. Backend and database: PHP, Laravel, CodeIgniter, MySQL. Tools and environment: Git, GitHub, VS Code, Linux, Ubuntu." />
 </picture>
 
+## 🧭 Journey
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/about/journey-light.svg" />
+  <img src="img/about/journey-dark.svg" width="100%" alt="Journey. Aug 2026 to present: IT Developer at BEST Corporation Syariah. Feb to Jul 2026: IT Developer apprentice at BEST Corporation Syariah. Sep 2023 to Sep 2026: D3 Informatics Management at Politeknik Negeri Lampung. 2022: Junior Web Developer internship at Telenergie Indonesia." />
+</picture>
+
 ## 💡 Random Dev Quote
 
 <picture>
