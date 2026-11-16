@@ -37,6 +37,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/github_stats.py dist
 
+      - name: generate dev quote
+        run: python3 .github/scripts/dev_quote.py dist
+
       - name: push svg to the system-scan branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
