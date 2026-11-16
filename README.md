@@ -76,23 +76,10 @@ const riski = {
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RiskiWahyuSaputra&theme=tokyonight" alt="profile details" />
-</div>
-
-<div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RiskiWahyuSaputra&theme=tokyonight" alt="repos per language" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RiskiWahyuSaputra&theme=tokyonight" alt="most commit language" />
-</div>
-
-<div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RiskiWahyuSaputra&theme=tokyonight" alt="stats" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RiskiWahyuSaputra&theme=tokyonight&utcOffset=7" alt="productive time" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=RiskiWahyuSaputra&hide_border=true&theme=tokyonight" alt="streak stats" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/github-stats-light.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/github-stats-dark.svg" width="100%" alt="Riski Wahyu Saputra's GitHub stats: contributions, commits, streak and top languages" />
+</picture>
 
 ## 🎵 Now Playing
 

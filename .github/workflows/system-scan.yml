@@ -32,6 +32,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/tech_stack_map.py dist
 
+      - name: generate github stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/github_stats.py dist
+
       - name: push svg to the system-scan branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
