@@ -97,11 +97,9 @@
 </picture>
 </p>
 
-<div align="center">
-  <br>
-  <i>⭐ From <a href="https://github.com/RiskiWahyuSaputra">RiskiWahyuSaputra</a></i>
-</div>
+<br>
 
-<div align="center">
-  <img src="img/king-king-baldwin.gif" alt="King Baldwin" />
-</div>
+<a href="https://github.com/RiskiWahyuSaputra"><picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/about/footer-light.svg" />
+  <img src="img/about/footer-dark.svg" width="100%" alt="Thanks for stopping by. If something here sparks an idea, let's build it together. From @RiskiWahyuSaputra" />
+</picture></a>
