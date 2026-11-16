@@ -90,10 +90,12 @@
 
 ## 🚀 Portfolio
 
-<a href="https://riskiwahyusaputra.vercel.app/"><picture>
-  <source media="(prefers-color-scheme: light)" srcset="img/connect/portfolio-light.svg" />
-  <img src="img/connect/portfolio-dark.svg" width="100%" alt="Visit Riski Wahyu Saputra's portfolio at riskiwahyusaputra.vercel.app" />
-</picture></a>
+<p align="center">
+  <a href="https://riskiwahyusaputra.vercel.app/"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="img/connect/portfolio-light.svg" />
+    <img src="img/connect/portfolio-dark.svg" width="100%" alt="Visit Riski Wahyu Saputra's portfolio at riskiwahyusaputra.vercel.app" />
+  </picture></a>
+</p>
 
 ## 🎮 Contribution Graph
 
@@ -106,7 +108,9 @@
 
 <br>
 
-<a href="https://github.com/RiskiWahyuSaputra"><picture>
-  <source media="(prefers-color-scheme: light)" srcset="img/about/footer-light.svg" />
-  <img src="img/about/footer-dark.svg" width="100%" alt="Thanks for stopping by. If something here sparks an idea, let's build it together. From @RiskiWahyuSaputra" />
-</picture></a>
+<p align="center">
+  <a href="https://github.com/RiskiWahyuSaputra"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="img/about/footer-light.svg" />
+    <img src="img/about/footer-dark.svg" width="100%" alt="Thanks for stopping by. If something here sparks an idea, let's build it together. From @RiskiWahyuSaputra" />
+  </picture></a>
+</p>
