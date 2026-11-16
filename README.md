@@ -34,25 +34,10 @@
   <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-dark.svg" width="100%" alt="Languages in the tech stack" />
 </picture>
 
-<div align="center">
-<table>
-  <tr>
-    <th align="center">🎨 Frontend</th>
-    <th align="center">⚙️ Backend &amp; Database</th>
-    <th align="center">🛠️ Tools &amp; Environment</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&perline=4" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=php,laravel,codeigniter,mysql&perline=2" alt="PHP, Laravel, CodeIgniter, MySQL" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,linux,ubuntu&perline=3" alt="Git, GitHub, VS Code, Linux, Ubuntu" /></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>HTML · CSS · JavaScript · TypeScript<br>React · Next.js · Tailwind</sub></td>
-    <td align="center"><sub>PHP · Laravel<br>CodeIgniter · MySQL</sub></td>
-    <td align="center"><sub>Git · GitHub · VS Code<br>Linux · Ubuntu</sub></td>
-  </tr>
-</table>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/about/toolbox-light.svg" />
+  <img src="img/about/toolbox-dark.svg" width="100%" alt="Toolbox. Frontend: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind. Backend and database: PHP, Laravel, CodeIgniter, MySQL. Tools and environment: Git, GitHub, VS Code, Linux, Ubuntu." />
+</picture>
 
 ## 💡 Random Dev Quote
 
