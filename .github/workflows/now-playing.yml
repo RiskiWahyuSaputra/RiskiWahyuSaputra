@@ -1,0 +1,35 @@
+name: Generate now playing
+
+on:
+  schedule: # setiap 30 menit
+    - cron: "*/30 * * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/now_playing.py
+      - .github/workflows/now-playing.yml
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate now playing card
+        run: python3 .github/scripts/now_playing.py dist
+
+      - name: push svg to the now-playing branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: now-playing
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

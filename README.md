@@ -98,7 +98,10 @@ const riski = {
 
 <div align="center">
   <a href="https://open.spotify.com/user/31ashwdrxyilecvdrfqzsq7mr7sm">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ashwdrxyilecvdrfqzsq7mr7sm&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" />
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/now-playing/now-playing-light.svg" />
+      <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/now-playing/now-playing-dark.svg" width="100%" alt="Riski Wahyu Saputra's Spotify now playing" />
+    </picture>
   </a>
 </div>
 
