@@ -70,9 +70,10 @@ const riski = {
 
 ## 💡 Random Dev Quote
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/dev-quote-light.svg" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/dev-quote-dark.svg" width="100%" alt="Random developer quote" />
+</picture>
 
 ## 📊 GitHub Stats
 
