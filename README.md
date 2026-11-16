@@ -94,13 +94,20 @@ const riski = {
 
 ## 🌐 Connect with me
 
-<div align="center">
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/arskies_/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riski-wahyu-saputra-6a9078294/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RiskiWahyuSaputra)
-
-</div>
+<p align="center">
+  <a href="https://www.instagram.com/arskies_/"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="img/connect/instagram-light.svg" />
+    <img src="img/connect/instagram-dark.svg" width="32%" alt="Instagram @arskies_" />
+  </picture></a>
+  <a href="https://www.linkedin.com/in/riski-wahyu-saputra-6a9078294/"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="img/connect/linkedin-light.svg" />
+    <img src="img/connect/linkedin-dark.svg" width="32%" alt="LinkedIn Riski Wahyu Saputra" />
+  </picture></a>
+  <a href="https://github.com/RiskiWahyuSaputra"><picture>
+    <source media="(prefers-color-scheme: light)" srcset="img/connect/github-light.svg" />
+    <img src="img/connect/github-dark.svg" width="32%" alt="GitHub @RiskiWahyuSaputra" />
+  </picture></a>
+</p>
 
 ## 🚀 Portfolio
 
