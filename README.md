@@ -111,11 +111,10 @@ const riski = {
 
 ## 🚀 Portfolio
 
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-0077B5?style=for-the-badge&logo=vercel&logoColor=white)](https://portofolio-sigma-three-87.vercel.app/)
-
-</div>
+<a href="https://portofolio-sigma-three-87.vercel.app/"><picture>
+  <source media="(prefers-color-scheme: light)" srcset="img/connect/portfolio-light.svg" />
+  <img src="img/connect/portfolio-dark.svg" width="100%" alt="Visit Riski Wahyu Saputra's portfolio at portofolio-sigma-three-87.vercel.app" />
+</picture></a>
 
 ## 🎮 Contribution Graph
 

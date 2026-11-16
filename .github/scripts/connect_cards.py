@@ -1,9 +1,11 @@
 """Kartu tautan "Connect with me" (statis, cukup dijalankan ulang kalau isi berubah).
 
 Pemakaian: python3 .github/scripts/connect_cards.py img/connect
-Menghasilkan <nama>-{dark,light}.svg untuk tiap tautan.
+Menghasilkan <nama>-{dark,light}.svg untuk tiap tautan, plus portfolio-{dark,light}.svg
+dari tangkapan layar img/connect/portfolio-shot.jpg (ganti file itu kalau situs berubah).
 Ikon: Font Awesome Free 6 (CC BY 4.0).
 """
+import base64
 import os
 import sys
 from html import escape
@@ -64,6 +66,66 @@ def card(link, mode):
     )
 
 
+PORTFOLIO = dict(
+    url="portofolio-sigma-three-87.vercel.app",
+    headline="Selected work & projects",
+    lines=["A closer look at what I design,", "build and ship for the web."],
+    shot="portfolio-shot.jpg",  # tangkapan layar situs, disimpan di folder output
+)
+BLUE = {"dark": ("#1f6feb", "#58a6ff", "#1f6feb55"), "light": ("#0969da", "#0969da", "#0969da55")}
+
+
+def portfolio(shot_b64, mode):
+    t = THEMES[mode]
+    btn, accent, glow = BLUE[mode]
+    pw, ph = 960, 280
+    bx, by, bw = 470, 30, 458            # jendela browser
+    bar = 30
+    bh = ph - 2 * by
+    lines = "".join(f'<tspan x="36" dy="{0 if i == 0 else 21}">{escape(s)}</tspan>'
+                    for i, s in enumerate(PORTFOLIO["lines"]))
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{pw}" height="{ph}" viewBox="0 0 {pw} {ph}" role="img" '
+        f'aria-label="Portfolio: {escape(PORTFOLIO["url"])}">'
+        "<style>.in{animation:in .6s ease-out backwards}@keyframes in{from{opacity:0;transform:translateY(8px)}}"
+        ".go{animation:go 2.4s ease-in-out infinite}@keyframes go{50%{transform:translateX(3px)}}"
+        "@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>"
+        "<defs>"
+        f'<clipPath id="pf-shot"><path d="M{bx},{by + bar} h{bw} v{bh - bar - 12} a12,12 0 0 1 -12,12 '
+        f'h{-(bw - 24)} a12,12 0 0 1 -12,-12 z"/></clipPath>'
+        f'<radialGradient id="pf-glow" cx=".72" cy=".5" r=".5"><stop offset="0" stop-color="{accent}" '
+        f'stop-opacity=".18"/><stop offset="1" stop-color="{accent}" stop-opacity="0"/></radialGradient>'
+        f'<filter id="pf-shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" '
+        f'stdDeviation="14" flood-color="#000" flood-opacity=".3"/></filter>'
+        "</defs>"
+        f'<rect x=".5" y=".5" width="{pw - 1}" height="{ph - 1}" rx="16" fill="{t["card"]}" stroke="{glow}"/>'
+        f'<rect width="{pw}" height="{ph}" rx="16" fill="url(#pf-glow)"/>'
+        # teks kiri
+        f'<g class="in"><text x="36" y="58" font-family="{MONO}" font-size="12" letter-spacing=".14em" '
+        f'fill="{accent}"><tspan font-size="9">●</tspan> PORTFOLIO</text>'
+        f'<text x="36" y="96" font-family="{SANS}" font-size="28" font-weight="700" letter-spacing="-.02em" '
+        f'fill="{t["title"]}">{escape(PORTFOLIO["headline"])}</text>'
+        f'<text x="36" y="126" font-family="{SANS}" font-size="15" fill="{t["muted"]}">{lines}</text>'
+        f'<text x="36" y="182" font-family="{MONO}" font-size="12" fill="{t["muted"]}">↗ {escape(PORTFOLIO["url"])}</text>'
+        f'<rect x="36" y="200" width="170" height="44" rx="22" fill="{btn}"/>'
+        f'<text x="60" y="227" font-family="{SANS}" font-size="15" font-weight="600" fill="#fff">Visit portfolio</text>'
+        f'<g class="go"><path transform="translate(176 215.5) scale(.029)" fill="#fff" d="{ARROW}"/></g></g>'
+        # jendela browser berisi tangkapan layar
+        f'<g class="in" style="animation-delay:.15s"><g filter="url(#pf-shadow)">'
+        f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="12" fill="{t["chip"]}" stroke="{t["border"]}"/></g>'
+        f'<circle cx="{bx + 18}" cy="{by + bar / 2}" r="5" fill="#ff5f57"/>'
+        f'<circle cx="{bx + 34}" cy="{by + bar / 2}" r="5" fill="#febc2e"/>'
+        f'<circle cx="{bx + 50}" cy="{by + bar / 2}" r="5" fill="#28c840"/>'
+        f'<rect x="{bx + 120}" y="{by + 7}" width="{bw - 240}" height="16" rx="8" fill="{t["card"]}" '
+        f'stroke="{t["border"]}"/>'
+        f'<text x="{bx + bw / 2}" y="{by + 19}" font-family="{MONO}" font-size="9.5" fill="{t["muted"]}" '
+        f'text-anchor="middle">{escape(PORTFOLIO["url"])}</text>'
+        f'<image href="data:image/jpeg;base64,{shot_b64}" x="{bx}" y="{by + bar}" width="{bw}" height="{bh - bar}" '
+        f'clip-path="url(#pf-shot)" preserveAspectRatio="xMidYMin slice"/></g>'
+        "</svg>"
+    )
+
+
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else "img/connect"
     os.makedirs(out, exist_ok=True)
@@ -71,6 +133,13 @@ def main():
         for mode in THEMES:
             with open(os.path.join(out, f'{link["key"]}-{mode}.svg'), "w", encoding="utf-8") as f:
                 f.write(card(link, mode))
+    shot = os.path.join(out, PORTFOLIO["shot"])
+    if os.path.exists(shot):
+        with open(shot, "rb") as f:
+            b64 = base64.b64encode(f.read()).decode()
+        for mode in THEMES:
+            with open(os.path.join(out, f"portfolio-{mode}.svg"), "w", encoding="utf-8") as f:
+                f.write(portfolio(b64, mode))
 
 
 if __name__ == "__main__":
