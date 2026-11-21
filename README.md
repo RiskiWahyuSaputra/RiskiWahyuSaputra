@@ -25,13 +25,13 @@
   <img src="img/about/about-dark.svg" width="100%" alt="const riski = { role: IT Developer, code: JavaScript, TypeScript, PHP, SQL; stack: Next.js, React, Laravel, CodeIgniter, Tailwind; tools: Git, GitHub, MySQL, Linux, Ubuntu; learning: Next.js + TypeScript at scale; motto: Ship it, then make it better }" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-light.svg" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-dark.svg" width="100%" alt="Riski Wahyu Saputra's tech stack map" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-light.svg?v=2" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-dark.svg?v=2" width="100%" alt="Riski Wahyu Saputra's tech stack map" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-light.svg" />
-  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-dark.svg" width="100%" alt="Languages in the tech stack" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-light.svg?v=2" />
+  <img src="https://raw.githubusercontent.com/RiskiWahyuSaputra/RiskiWahyuSaputra/system-scan/tech-stack-legend-dark.svg?v=2" width="100%" alt="Languages in the tech stack" />
 </picture>
 
 <picture>
