@@ -15,7 +15,7 @@ from itertools import combinations
 USER = "RiskiWahyuSaputra"
 REPOS = [
     "Qbot",
-    "SDN21-TulangBawangUdik",
+    "ai-studio-office",
     "TokoQ-UMKM",
     "smart-resource-optimizer",
     "StockFlow-Commerce",
